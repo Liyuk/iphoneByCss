@@ -1,0 +1,387 @@
+.cssip-iphone
+{
+    position: relative;
+
+    width: 149px;
+    height: 298px;
+
+    border: 3px solid rgb(47,47,47);
+    border-radius: 20px;
+    background-color: #181818;
+    box-shadow: 2px 2px 3px rgb(87, 87, 87);
+}
+
+.cssip-iphone-top,
+.cssip-iphone-bottom
+{
+    line-height: 35px;
+
+    position: relative;
+
+    width: 100%;
+    height: 35px;
+
+    text-align: center;
+}
+
+.cssip-iphone-body
+{
+    position: relative;
+
+    width: 95%;
+    height: 230px;
+    margin: auto;
+
+    background-color: #fff;
+    box-shadow: 0 0 10px #4b433c;
+}
+
+.cssip-front-camera
+{
+    display: inline-block;
+
+    width: 1px;
+    height: 1px;
+    margin-bottom: 2px;
+    margin-left: -9px;
+
+    border: 2px solid #34363c;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    background: #21285d;
+}
+.cssip-earphone
+{
+    display: inline-block;
+
+    width: 24px;
+    height: 3px;
+    margin-bottom: 3px;
+
+    border-radius: 6px;
+    background-color: #373737;
+}
+
+.cssip-botton
+{
+    display: inline-block;
+
+    width: 21px;
+    height: 21px;
+    margin-top: 3px;
+    margin-left: -2px;
+
+    border: 2px solid #2e2e2e;
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+    background: #121212;
+}
+
+.cssip-status
+{
+    font-size: 12px;
+    font-weight: bold;
+
+    position: relative;
+
+    height: 9px;
+
+    text-align: center;
+
+    background-color: #f8f8f8;
+}
+
+.cssip-status .cssip-status-time
+{
+    position: absolute;
+
+    display: inline-block;
+
+    margin-top: -4px;
+    margin-left: -30px;
+
+    transform: scale(.4);
+}
+
+.cssip-status .cssip-status-signal
+{
+    position: absolute;
+    left: 0;
+
+    display: inline-block;
+
+    margin-top: -4px;
+    /* margin-left: -30px; */
+
+    transform: scale(.4);
+}
+
+.cssip-status .cssip-status-signal::before
+{
+    position: absolute;
+    top: 2px;
+    left: -27px;
+
+    width: 26px;
+    height: 12px;
+
+    content: '·····';
+}
+
+.cssip-status .cssip-status-signal::after
+{
+    position: absolute;
+
+    content: '';
+}
+
+.cssip-status .cssip-status-battery
+{
+    position: absolute;
+    top: 1px;
+    right: 3px;
+
+    display: inline-block;
+
+    width: 9px;
+    height: 3px;
+
+    border: .5px solid;
+    background: #fff;
+}
+
+.cssip-status .cssip-status-battery::before
+{
+    position: absolute;
+    position: absolute;
+    top: -.5px;
+    right: 5px;
+
+    display: inline-block;
+
+    width: 4px;
+    height: 2.5px;
+
+    content: '';
+
+    border-top: .5px solid;
+    border-bottom: .5px solid;
+    background: #181818;
+}
+
+.cssip-status .cssip-status-battery::after
+{
+    position: absolute;
+    top: 0;
+    right: -2px;
+
+    display: inline-block;
+
+    width: 0;
+    height: 1px;
+
+    content: '';
+
+    border: .5px solid;
+    border-top: .5px solid;
+    border-bottom: .5px solid;
+    background: #181818;
+}
+
+.cssip-menu
+{
+    font-size: 12px;
+    font-weight: bold;
+
+    position: relative;
+
+    height: 17px;
+
+    color: #5398f3;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px #f2f2f2;
+}
+
+.cssip-menu .cssip-menu-back
+{
+    position: absolute;
+    left: -6px;
+
+    display: inline-block;
+    float: left;
+
+    transform: scale(.6);
+}
+
+.cssip-menu .cssip-menu-detail
+{
+    position: absolute;
+    right: -6px;
+
+    display: inline-block;
+    float: right;
+
+    transform: scale(.6);
+}
+
+.cssip-content
+{
+    position: relative;
+
+    overflow-x: auto;
+
+    height: 187px;
+}
+
+.cssip-content::-webkit-scrollbar
+{
+    width: 10px;
+
+    background-color: #f5f5f5;
+}
+.cssip-content::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #555;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+.cssip-content::-webkit-scrollbar-track
+{
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+
+
+.cssip-sms-recieve
+{
+    font-size: 12px;
+
+    position: relative;
+    top: 6px;
+    left: 6px;
+
+    width: 105px;
+    padding: 3px 5px;
+
+    transform: scale(.9);
+    letter-spacing: 1px;
+    word-break: break-word;
+
+    border-radius: 5px;
+    background-color: rgba(230, 229, 234, .86);
+}
+
+.cssip-sms-recieve::after
+{
+    position: absolute;
+    bottom: -2px;
+    left: -5px;
+
+    width: 7px;
+    height: 7px;
+
+    content: '';
+    -webkit-transform: rotate(-64deg);
+       -moz-transform: rotate(-64deg);
+        -ms-transform: rotate(-64deg);
+         -o-transform: rotate(-64deg);
+            transform: rotate(-64deg);
+
+    border: 0 solid transparent;
+    border-bottom: 5px solid rgba(230, 229, 234, .86);
+    -webkit-border-radius: 0 0 0 7px;
+       -moz-border-radius: 0 0 0 7px;
+            border-radius: 0 0 0 7px;
+}
+
+.cssip-input
+{
+    font-size: 12px;
+    font-weight: bold;
+
+    position: relative;
+
+    height: 17px;
+
+    background-color: #f8f8f8;
+    box-shadow: 0 -1px 1px #f2f2f2;
+}
+
+.cssip-input .cssip-camera-icon
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    display: inline-block;
+
+    width: 12px;
+    height: 7px;
+
+    border-radius: 1px;
+    background-color: #616a78;
+}
+
+.cssip-input .cssip-camera-icon::before
+{
+    position: absolute;
+    top: -2px;
+    left: 3.5px;
+
+    width: 5px;
+    height: 2px;
+
+    content: '';
+
+    border-radius: 1px 1px 0 0;
+    background-color: #616a78;
+}
+
+.cssip-input .cssip-camera-icon::after
+{
+    position: absolute;
+    left: 3px;
+
+    width: 3px;
+    height: 3px;
+
+    content: '';
+
+    border: 1.7px solid #bec4cb;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    background: #6c7a88;
+}
+
+.cssip-input .cssip-sms-input
+{
+    position: absolute;
+
+    display: inline-block;
+
+    width: 144px;
+    margin-top: -2px;
+    margin-left: -6px;
+    padding: 1px 3px 1px 3px;
+
+    transform: scale(.6);
+
+    color: #cbcbce;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.cssip-input .cssip-send
+{
+    display: inline-block;
+    float: right;
+
+    transform: scale(.6);
+
+    color: #9a999c;
+}
